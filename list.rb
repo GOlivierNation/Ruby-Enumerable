@@ -22,3 +22,4 @@ puts list.any? {|e| e == 2} # true
 puts list.any? {|e| e == 5} # false
 
 print list.filter {|e| e.even?} # [2, 4]
+
